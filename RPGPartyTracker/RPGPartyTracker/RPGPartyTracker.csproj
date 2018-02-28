@@ -21,6 +21,18 @@
     <Content Remove="ClientApp\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ClientApp\components\Characters\" />
+    <Folder Include="ClientApp\components\Battles\" />
+    <Folder Include="ClientApp\components\Campiagns\" />
+    <Folder Include="ClientApp\components\Events\" />
+    <Folder Include="ClientApp\components\Community\" />
+    <Folder Include="ClientApp\components\Main\" />
+    <Folder Include="ClientApp\components\NavMenu\" />
+    <Folder Include="ClientApp\components\Timeline\" />
+    <Folder Include="ClientApp\components\Parties\" />
+  </ItemGroup>
+
   <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
     <!-- Ensure Node.js is installed -->
     <Exec Command="node --version" ContinueOnError="true">
