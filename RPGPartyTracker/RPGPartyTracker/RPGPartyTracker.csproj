@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Grunt" Version="0.1.13" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="pouchDB.TypeScript.DefinitelyTyped" Version="0.2.8" />
     <PackageReference Include="WebEssentials.AspNetCore.PWA" Version="1.0.33" />
