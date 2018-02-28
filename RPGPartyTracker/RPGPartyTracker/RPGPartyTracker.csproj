@@ -28,7 +28,6 @@
     <Folder Include="ClientApp\components\Events\" />
     <Folder Include="ClientApp\components\Community\" />
     <Folder Include="ClientApp\components\Main\" />
-    <Folder Include="ClientApp\components\NavMenu\" />
     <Folder Include="ClientApp\components\Timeline\" />
     <Folder Include="ClientApp\components\Parties\" />
   </ItemGroup>

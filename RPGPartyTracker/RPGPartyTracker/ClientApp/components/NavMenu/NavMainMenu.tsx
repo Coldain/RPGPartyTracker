@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
-export class NavMenu extends React.Component<{}, {}> {
+export class NavMainMenu extends React.Component<{}, {}> {
     public render() {
         return <div className='main-nav'>
                 <div className='navbar navbar-inverse'>
@@ -34,7 +34,7 @@ export class NavMenu extends React.Component<{}, {}> {
                         </li>
                         <li>
                             <NavLink to={ '/battles' } activeClassName='active'>
-                                <span className='glyphicon glyphicon-skull' /> Battles
+                                <span className='glyphicon glyphicon-ax' /> Battles
                             </NavLink>
                         </li>
                         <li>

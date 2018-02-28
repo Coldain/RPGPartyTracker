@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
-export class NavMenu extends React.Component<{}, {}> {
+export class NavCharacterMenu extends React.Component<{}, {}> {
     public render() {
         return <div className='main-nav'>
                 <div className='navbar navbar-inverse'>
@@ -18,25 +18,26 @@ export class NavMenu extends React.Component<{}, {}> {
                 <div className='navbar-collapse collapse'>
                     <ul className='nav navbar-nav'>
                         <li>
-                            <NavLink to={'/'} activeClassName='active'>
-                                <span className='glyphicon glyphicon-log-in'></span> Log In
-                            </NavLink>
-                        </li>
-                        <li>
                             <NavLink exact to={ '/' } activeClassName='active'>
                                 <span className='glyphicon glyphicon-home'></span> Home
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={ '/counter' } activeClassName='active'>
-                                <span className='glyphicon glyphicon-education'></span> Counter
+                            <NavLink to={'/fetchdata'} activeClassName='active'>
+                                <span className='glyphicon glyphicon-user-add'></span> New Character
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={ '/fetchdata' } activeClassName='active'>
-                                <span className='glyphicon glyphicon-th-list'></span> Fetch data
+                            <NavLink to={ '/counter' } activeClassName='active'>
+                                <span className='glyphicon glyphicon-person'></span> Character Name 1
                             </NavLink>
                         </li>
+                        <li>
+                            <NavLink to={'/counter'} activeClassName='active'>
+                                <span className='glyphicon glyphicon-person'></span> Character Name 2
+                            </NavLink>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
