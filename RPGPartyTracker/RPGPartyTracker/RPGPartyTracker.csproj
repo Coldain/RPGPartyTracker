@@ -22,13 +22,20 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="ClientApp\components\Characters\" />
     <Folder Include="ClientApp\components\Battles\" />
     <Folder Include="ClientApp\components\Campiagns\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Class\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Detail\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Ability\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Feat\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Manager\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Shop\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Power\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Skill\" />
+    <Folder Include="ClientApp\components\Characters\Editor\Race\" />
     <Folder Include="ClientApp\components\Events\" />
     <Folder Include="ClientApp\components\Community\" />
     <Folder Include="ClientApp\components\Main\" />
-    <Folder Include="ClientApp\components\NavMenu\" />
     <Folder Include="ClientApp\components\Timeline\" />
     <Folder Include="ClientApp\components\Parties\" />
   </ItemGroup>
